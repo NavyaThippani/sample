@@ -1,0 +1,165 @@
+/* CSS Document */ 
+
+.offscreen { 
+  position: absolute; 
+  top: -30em; 
+  left: -300em; 
+} 
+
+div#hmenu { 
+   margin: 0; 
+   padding: .3em 0 .3em 0; 
+   background: #ddeebb; 
+   width: 50%; 
+   text-align: center; 
+} 
+
+div#hmenu ul { 
+   list-style: none; 
+   margin: 0; 
+   padding: 0; 
+} 
+
+div#hmenu ul li { 
+   margin: 0; 
+   padding: 0; 
+   display: inline; 
+} 
+
+div#hmenu ul a:link{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #004415; 
+} 
+
+div#hmenu ul a:visited{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #227755; 
+} 
+
+div#hmenu ul a:active{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #227755; 
+} 
+
+div#hmenu ul a:hover{ 
+   margin: 0; 
+   padding: .3em .4em .3em .4em; 
+   text-decoration: none; 
+   font-weight: bold; 
+   font-size: medium; 
+   color: #f6f0cc; 
+   background-color: #227755; 
+}
+
+.textareastyle {
+	overflow:auto;
+	resize:none;
+	height: 100px;
+	width: 800px;
+	max-height: 300px;
+	border-radius: 7px;
+}
+
+.tablestyle {
+	clear: both;
+	WIDTH:50%;
+	border-collapse:collapse;
+	padding: 10px;
+	 
+    /* only out border for table*/
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 7px;
+}
+.thstyle{
+	text-align:left;
+	WIDTH:10%;
+	border-style: solid;
+    border-width: 1px;
+}
+.trstyle{
+	WIDTH:40%;
+	text-align:left;
+	border-style: solid;
+    border-width: 1px;
+}
+.tablestyleSmall{
+	clear: both;
+	WIDTH:25%;
+	border-collapse:collapse;
+	border-radius: 7px;
+}
+.buttonStyle{
+	height: 40px; 
+	width:200px; 
+	text-align: center; 
+	color: blue;
+	border-radius: 7px;
+	margin-right:50px;
+}
+
+.callButtonStyle{
+	height: 40px; 
+	width:80px; 
+	text-align: center; 
+	color: blue;
+	border-radius: 7px;
+	margin-right:8px;
+	margin-left:8px;
+}
+.textboxStyle{
+	height: 30px;
+	width:200px;
+	text-aligh: left;
+	border-radius: 7px;
+	margin-right:20px;
+}
+.selectStyle{
+	height: 35px;
+	width: 200px;
+	text-aligh: left;
+	border-radius: 7px;
+	margin-right:20px;
+}
+.dropdownStyle{
+	height: 35px;
+	width: 70px;
+	text-aligh: right;
+	border-radius: 7px;
+}
+.divStyle{
+	background-color:white; 
+	display: table; 
+	max-width: 200px; 
+	padding: 10px; 
+	margin: 0 auto 40px;
+	border-radius: 7px;
+}
+.smallselectStyle{
+	height: 35px;
+	width: 100px;
+	text-aligh: left;
+	border-radius: 7px;
+	margin-right:8px;
+	margin-left:8px;
+}
+.smalltextboxStyle{
+	height: 30px;
+	width:100px;
+	text-aligh: left;
+	border-radius: 7px;
+	margin-right:8px;
+	margin-left:8px;
+}
